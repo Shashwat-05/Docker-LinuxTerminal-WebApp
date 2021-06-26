@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>docker menu</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a id="navbar__logo">DOCKER</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">
+          [root@<span>localhost</span>]: 
+          <input  class="input_bar" id="cmdin" /> 
+          <button class="main__btn" id='submit_btn'  onclick="terminal();"><a>enter</a></button>
+        </h1>        
+      </div>
+      <pre>
+      <div class="output_div" >
+        <p class="output_para" id="cmdout" >
+          OUTPUT
+        </p>
+      </div>
+      </pre>
+    </div>    
+
+    <!-- Services Section -->
+
+    <div class="services" id="services">
+      <h1>DOCKER OPERATIONS</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>DOCKER launch</h2>
+          <p>
+            <input id="dkr_run"/>
+          </p>
+          <div class="services__btn">
+            <button onclick="launch();">launch</button>
+          </div>
+        </div>
+        <div class="services__card">
+          <h2>start/stop</h2>
+          <p>
+            <input id="start_stop"/>
+          </p>
+          <div class="services__btn">
+            <button onclick="ss();">start/stop</button>
+          </div>
+        </div>
+        <div class="services__card">
+          <h2>Remove</h2>
+          <p>
+            <input id="dkr_remove"/>
+          </p>
+          <div class="services__btn">
+            <button onclick="remove();">remove</button>
+          </div>
+        </div>
+        <div class="services__card">
+          <h2>Show</h2>
+          <p>
+            <input id="dkr_show"/>
+          </p>
+          <div class="services__btn">
+            <button onclick="show();">show</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <script src="app2.js"></script>
+  </body>
+</html>
+ 
