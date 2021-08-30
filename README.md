@@ -1,4 +1,4 @@
-# Docker_webApp
+# Docker WebApp
 
 *A WebApp that has Terminal support where user can use **Docker** and instead of the typical commands , user can input much more casual commands or say write the command in much casual english .
 The backend is written on python which is capable of understanding the keywords used as casual commands and bts run the original commands . Also the frontend is made on HTML, CSS, JavaScript . ALso it has Linux Terminal support where client can also write pure linux commands and get output on the same page*
