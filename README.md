@@ -1,11 +1,12 @@
-# LW-summerprogram-task7
+#Docker_webApp
 
-## for docker operations !!
+*A WebApp that has Terminal support where user can use **Docker** and instead of the typical commands , user can input much more casual commands or say write the command in much casual english .
+The backend is written on python which is capable of understanding the keywords used as casual commands and bts run the original commands . Also the frontend is made on HTML, CSS, JavaScript . ALso it has Linux Terminal support where client can also write pure linux commands and get output on the same page*
 
-__to launch__ -> name_of_container:name_of_image
+*Also other services like **kubernetes orchestration** can also be used similarly via a prompt bar.*
 
-__to start/top__-> <start or stop>:name_of_container
-  
-__to remove__ -> <image or container>:<name_of_cont/img or all>
+* Can see the demo here : https://www.linkedin.com/posts/shashwat-pathak_kubernetes-worldrecordholder-training-activity-6817829806462394368-sD_R
 
-**to see** -> active containers or images
+* Connect on LinkedIN : https://www.linkedin.com/in/shashwat-pathak/
+
+* Kubernetes webapp orchestration GitHub project - https://github.com/shashwat052000/k8s-UI-js-html-css-py/tree/main
