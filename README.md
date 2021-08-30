@@ -5,7 +5,7 @@ The backend is written on python which is capable of understanding the keywords 
 
 *Also other services like **kubernetes orchestration** can also be used similarly via a prompt bar.*
 
-* Can see the demo here : https://www.linkedin.com/posts/shashwat-pathak_kubernetes-worldrecordholder-training-activity-6817829806462394368-sD_R
+* Can see the demo here : https://www.linkedin.com/posts/shashwat-pathak_html-css-javascripts-activity-6814511432412090368-dfVJ
 
 * Connect on LinkedIN : https://www.linkedin.com/in/shashwat-pathak/
 
